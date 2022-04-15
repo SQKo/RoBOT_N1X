@@ -7,7 +7,8 @@ use Discord\Slash\Parts\Interaction;
 use Discord\Slash\Parts\Choices;
 
 $client = new Client([
-    'public_key' => getenv('CLIENT_PUBLIC_KEY')
+    'public_key' => getenv('CLIENT_PUBLIC_KEY'),
+    'uri' => null,
 ]);
 
 $client->registerCommand('ping', function (Interaction $interaction, Choices $choices) {
