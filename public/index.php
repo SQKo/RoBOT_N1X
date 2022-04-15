@@ -12,7 +12,7 @@ $timestamp = $_SERVER['HTTP_X_SIGNATURE_TIMESTAMP'];
 $postData = file_get_contents('php://input');
 
 if (Interaction::verifyKey($postData, $signature, $timestamp, $CLIENT_PUBLIC_KEY)) {
-    var_dump($postData);
+    throw new RuntimeException(print_r($postData, true));
     echo json_encode(array(
         'type' => InteractionResponseType::PONG
     ));
