@@ -1,0 +1,6 @@
+{
+    "require": {
+        "discord-php/http": "^10.0",
+        "discord/interactions": "^2.2"
+    }
+}
