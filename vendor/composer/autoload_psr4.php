@@ -19,6 +19,9 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Fig\\Http\\Message\\' => array($vendorDir . '/fig/http-message-util/src'),
+    'Elliptic\\' => array($vendorDir . '/simplito/elliptic-php/lib'),
     'Discord\\Http\\' => array($vendorDir . '/discord-php/http/src/Discord'),
     'Discord\\' => array($vendorDir . '/discord/interactions/discord'),
+    'BN\\' => array($vendorDir . '/simplito/bn-php/lib'),
+    'BI\\' => array($vendorDir . '/simplito/bigint-wrapper-php/lib'),
 );

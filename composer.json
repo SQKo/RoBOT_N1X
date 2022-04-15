@@ -1,6 +1,7 @@
 {
     "require": {
         "discord-php/http": "^10.0",
-        "discord/interactions": "^2.2"
+        "discord/interactions": "^2.2",
+        "simplito/elliptic-php": "^1.0"
     }
 }

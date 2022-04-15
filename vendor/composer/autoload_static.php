@@ -36,10 +36,19 @@ class ComposerStaticInitb2cf0269efb376cc806f9b3b32a3446e
         array (
             'Fig\\Http\\Message\\' => 17,
         ),
+        'E' => 
+        array (
+            'Elliptic\\' => 9,
+        ),
         'D' => 
         array (
             'Discord\\Http\\' => 13,
             'Discord\\' => 8,
+        ),
+        'B' => 
+        array (
+            'BN\\' => 3,
+            'BI\\' => 3,
         ),
     );
 
@@ -96,6 +105,10 @@ class ComposerStaticInitb2cf0269efb376cc806f9b3b32a3446e
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
         ),
+        'Elliptic\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/elliptic-php/lib',
+        ),
         'Discord\\Http\\' => 
         array (
             0 => __DIR__ . '/..' . '/discord-php/http/src/Discord',
@@ -103,6 +116,14 @@ class ComposerStaticInitb2cf0269efb376cc806f9b3b32a3446e
         'Discord\\' => 
         array (
             0 => __DIR__ . '/..' . '/discord/interactions/discord',
+        ),
+        'BN\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/bn-php/lib',
+        ),
+        'BI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/bigint-wrapper-php/lib',
         ),
     );
 
