@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5b6ffae624ac5711514f77fce2bff71a0658793a',
+        'reference' => '73656a0a953a95219e846afa33e5f972fdd5e482',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5b6ffae624ac5711514f77fce2bff71a0658793a',
+            'reference' => '73656a0a953a95219e846afa33e5f972fdd5e482',
             'dev_requirement' => false,
         ),
         'discord-php/http' => array(
