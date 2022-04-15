@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
+    'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
+    'Symfony\\Component\\OptionsResolver\\' => array($vendorDir . '/symfony/options-resolver'),
     'RingCentral\\Psr7\\' => array($vendorDir . '/ringcentral/psr7/src'),
     'React\\Stream\\' => array($vendorDir . '/react/stream/src'),
     'React\\Socket\\' => array($vendorDir . '/react/socket/src'),
@@ -17,9 +20,15 @@ return array(
     'React\\Dns\\' => array($vendorDir . '/react/dns/src'),
     'React\\Cache\\' => array($vendorDir . '/react/cache/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src', $vendorDir . '/psr/http-factory/src'),
+    'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
+    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
+    'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
+    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Fig\\Http\\Message\\' => array($vendorDir . '/fig/http-message-util/src'),
     'Elliptic\\' => array($vendorDir . '/simplito/elliptic-php/lib'),
+    'Discord\\Slash\\' => array($vendorDir . '/discord-php/slash/src/Discord'),
     'Discord\\Http\\' => array($vendorDir . '/discord-php/http/src/Discord'),
     'Discord\\' => array($vendorDir . '/discord/interactions/discord'),
     'BN\\' => array($vendorDir . '/simplito/bn-php/lib'),
