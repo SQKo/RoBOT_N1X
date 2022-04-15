@@ -15,14 +15,9 @@ $postData = file_get_contents('php://input');
 if (Interaction::verifyKey($postData, $signature, $timestamp, $CLIENT_PUBLIC_KEY)) {
     $interactiondata = json_decode($postData);
     if ($interactiondata->data->name == 'ping') {
-        $response = [
-            'type' => InteractionResponseType::CHANNEL_MESSAGE_WITH_SOURCE,
-            'data' => [
-                'content' => 'Pong!',
-                'flags' => InteractionResponseFlags::EPHEMERAL
-            ]
-        ];
-        echo json_encode($response);
+        echo json_encode([
+            'type' => InteractionResponseType::DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE,
+        ]);
         return;
     }
     echo json_encode(array(
