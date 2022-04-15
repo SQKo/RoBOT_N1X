@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a4c50d57de164d26222b998bb72c2b849542207c',
+        'reference' => '66b91698468efb4beddc418f4095f9ed0007ca2b',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a4c50d57de164d26222b998bb72c2b849542207c',
+            'reference' => '66b91698468efb4beddc418f4095f9ed0007ca2b',
             'dev_requirement' => false,
         ),
         'discord-php/http' => array(
@@ -89,6 +89,15 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => 'c94a94f120803a18554c1805ef2e539f8285f9a2',
+            'dev_requirement' => false,
+        ),
+        'kambo/httpmessage' => array(
+            'pretty_version' => 'v0.9.1',
+            'version' => '0.9.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kambo/httpmessage',
+            'aliases' => array(),
+            'reference' => '38877b9d895f279fdd5bdf957d8f23f9808a940a',
             'dev_requirement' => false,
         ),
         'monolog/monolog' => array(

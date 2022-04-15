@@ -603,6 +603,62 @@
             "install-path": "../guzzlehttp/psr7"
         },
         {
+            "name": "kambo/httpmessage",
+            "version": "v0.9.1",
+            "version_normalized": "0.9.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kambo-1st/HttpMessage.git",
+                "reference": "38877b9d895f279fdd5bdf957d8f23f9808a940a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kambo-1st/HttpMessage/zipball/38877b9d895f279fdd5bdf957d8f23f9808a940a",
+                "reference": "38877b9d895f279fdd5bdf957d8f23f9808a940a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "psr/http-message": "*"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "4.6.10"
+            },
+            "time": "2018-01-24T22:45:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Kambo\\Http\\Message\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bohuslav Simek",
+                    "email": "bohuslav@simek.si"
+                }
+            ],
+            "description": "Kambo httpmessage a PSR-7 implementation",
+            "keywords": [
+                "http",
+                "httpmessage",
+                "psr-7"
+            ],
+            "support": {
+                "issues": "https://github.com/kambo-1st/HttpMessage/issues",
+                "source": "https://github.com/kambo-1st/HttpMessage/tree/master"
+            },
+            "install-path": "../kambo/httpmessage"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.5.0",
             "version_normalized": "2.5.0.0",

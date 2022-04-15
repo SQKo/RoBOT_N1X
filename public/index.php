@@ -14,4 +14,4 @@ $client->registerCommand('ping', function (Interaction $interaction, Choices $ch
     $interaction->replyWithSource('Pong!');
 });
 
-$client->run();
+$client->runCgi();

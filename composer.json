@@ -3,6 +3,7 @@
         "discord/interactions": "^2.2",
         "simplito/elliptic-php": "^1.0",
         "ext-gmp": "*",
-        "discord-php/slash": "v2.x-dev"
+        "discord-php/slash": "v2.x-dev",
+        "kambo/httpmessage": "^0.9.1"
     }
 }
