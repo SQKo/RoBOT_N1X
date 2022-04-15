@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "discord-php/http",
-            "version": "v9.0.10",
+            "version": "v10.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "5d58a017152295c5769adad7510ec6d88bf2f60f"
+                "reference": "cb3db85aaa64425acad0ebafc76f24bd31993cec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/5d58a017152295c5769adad7510ec6d88bf2f60f",
-                "reference": "5d58a017152295c5769adad7510ec6d88bf2f60f",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/cb3db85aaa64425acad0ebafc76f24bd31993cec",
+                "reference": "cb3db85aaa64425acad0ebafc76f24bd31993cec",
                 "shasum": ""
             },
             "require": {
@@ -49,9 +49,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.10"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v10.0.0"
             },
-            "time": "2022-02-16T15:10:31+00:00"
+            "time": "2022-02-14T17:40:45+00:00"
         },
         {
             "name": "discord-php/slash",
@@ -59,16 +59,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Slash.git",
-                "reference": "19f87a5951860bf2c32b05ba512999657a368376"
+                "reference": "b8b2e316c6ff7ee4455fcd8253a478ab0659a43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/19f87a5951860bf2c32b05ba512999657a368376",
-                "reference": "19f87a5951860bf2c32b05ba512999657a368376",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/b8b2e316c6ff7ee4455fcd8253a478ab0659a43d",
+                "reference": "b8b2e316c6ff7ee4455fcd8253a478ab0659a43d",
                 "shasum": ""
             },
             "require": {
-                "discord-php/http": "^8|^9",
+                "discord-php/http": "^8|^9|^10",
                 "discord/interactions": "^1|^2",
                 "guzzlehttp/guzzle": "^7.2",
                 "monolog/monolog": "^2.2",
@@ -79,12 +79,10 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.18",
-                "symfony/var-dumper": "^5.2",
-                "team-reflex/discord-php": "^6"
+                "symfony/var-dumper": "^5.2"
             },
             "suggest": {
-                "kambo/httpmessage": "Required for hosting the command server behind a CGI/FPM server.",
-                "team-reflex/discord-php": "Provides an easier interface, where interactions are sent via websocket rather than a webhook."
+                "kambo/httpmessage": "Required for hosting the command server behind a CGI/FPM server."
             },
             "type": "library",
             "autoload": {
@@ -107,7 +105,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP-Slash/issues",
                 "source": "https://github.com/discord-php/DiscordPHP-Slash/tree/v2"
             },
-            "time": "2022-04-15T17:32:43+00:00"
+            "time": "2022-04-15T18:24:36+00:00"
         },
         {
             "name": "discord/interactions",
