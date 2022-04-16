@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Slash.git",
-                "reference": "fc281941397bbea6c6d3fdb0f665a2cfb06b8b38"
+                "reference": "4ce4142471378a1ade0d4e4d7cb459654e35e5da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/fc281941397bbea6c6d3fdb0f665a2cfb06b8b38",
-                "reference": "fc281941397bbea6c6d3fdb0f665a2cfb06b8b38",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Slash/zipball/4ce4142471378a1ade0d4e4d7cb459654e35e5da",
+                "reference": "4ce4142471378a1ade0d4e4d7cb459654e35e5da",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "issues": "https://github.com/discord-php/DiscordPHP-Slash/issues",
                 "source": "https://github.com/discord-php/DiscordPHP-Slash/tree/v2"
             },
-            "time": "2022-04-16T16:13:13+00:00"
+            "time": "2022-04-16T16:30:31+00:00"
         },
         {
             "name": "discord/interactions",
