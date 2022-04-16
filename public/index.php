@@ -13,7 +13,7 @@ $client = new Client([
 ]);
 
 $client->registerCommand('ping', function (Interaction $interaction, Choices $choices) {
-    $interaction->replyWithSource('Pong!', false, null, null, InteractionResponseFlags::EPHEMERAL);
+    $interaction->reply('Pong!', false, null, null, InteractionResponseFlags::EPHEMERAL);
 });
 
 $client->runCgi();
