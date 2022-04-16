@@ -3,6 +3,7 @@
 require '../vendor/autoload.php';
 
 use Discord\Interaction;
+use Discord\InteractionResponseFlags;
 use Discord\InteractionResponseType;
 use Discord\InteractionType;
 
@@ -23,7 +24,8 @@ if (Interaction::verifyKey($postData, $signature, $timestamp, $CLIENT_PUBLIC_KEY
         echo json_encode([
             'type' => InteractionResponseType::CHANNEL_MESSAGE_WITH_SOURCE,
             'data' => [
-                'content' => 'Congratulations!'
+                'content' => 'Pong!',
+                'flags' => InteractionResponseFlags::EPHEMERAL
             ]
         ]);
     }
