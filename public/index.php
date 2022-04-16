@@ -7,8 +7,6 @@ use Discord\Slash\Client;
 use Discord\Slash\Parts\Interaction;
 use Discord\Slash\Parts\Choices;
 
-error_reporting(0);
-
 ob_start();
 
 $client = new Client([
