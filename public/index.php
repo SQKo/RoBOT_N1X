@@ -13,7 +13,6 @@ $client = new Client([
 ]);
 
 $client->registerCommand('ping', function (Interaction $interaction, Choices $choices) use ($client) {
-    $client->getLogger()->info('executing ping command!');
     $interaction->reply('Pong!', false, null, null, InteractionResponseFlags::EPHEMERAL);
 });
 
