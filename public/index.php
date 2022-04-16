@@ -20,4 +20,4 @@ $client->registerCommand('ping', function (Interaction $interaction, Choices $ch
 
 $client->runCgi();
 
-throw new RuntimeException(ob_get_clean());
+throw new RuntimeException(ob_get_flush());
