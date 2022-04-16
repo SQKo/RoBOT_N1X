@@ -7,8 +7,6 @@ use Discord\Slash\Client;
 use Discord\Slash\Parts\Interaction;
 use Discord\Slash\Parts\Choices;
 
-ob_start();
-
 $client = new Client([
     'public_key' => getenv('CLIENT_PUBLIC_KEY'),
     'uri' => null,
@@ -19,5 +17,3 @@ $client->registerCommand('ping', function (Interaction $interaction, Choices $ch
 });
 
 $client->runCgi();
-
-throw new RuntimeException(ob_get_flush());
