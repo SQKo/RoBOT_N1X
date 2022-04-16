@@ -8,8 +8,8 @@ Discord Interactions Bot made with DiscordPHP, via heroku
 4. Paste public key to environment variable `CLIENT_PUBLIC_KEY`
 5. Deploy your app
 6. Set **Interactions Endpoint URL**:
-   - [`https://url.com/index.php`](https://github.com/SQKo/RoBOT_N1X/blob/main/public/index.php) for [DiscordPHP-Slash](https://github.com/discord-php/DiscordPHP-Slash) `/ping` demo command
-   - [`https://url.com/interaction.php`](https://github.com/SQKo/RoBOT_N1X/blob/main/public/interaction.php) for vanilla [discord-interactions-php](https://github.com/discord/discord-interactions-php) `/ping` demo command
+   - [`https://url.com/index.php`](https://github.com/SQKo/RoBOT_N1X/blob/main/public/index.php) for [DiscordPHP-Slash](https://github.com/discord-php/DiscordPHP-Slash)
+   - [`https://url.com/interaction.php`](https://github.com/SQKo/RoBOT_N1X/blob/main/public/interaction.php) for vanilla [discord-interactions-php](https://github.com/discord/discord-interactions-php)
 7. Click **Save**
 8. Type the `/ping` command on your Bot in Discord
 
