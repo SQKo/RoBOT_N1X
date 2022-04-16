@@ -7,6 +7,8 @@ use Discord\Slash\Client;
 use Discord\Slash\Parts\Interaction;
 use Discord\Slash\Parts\Choices;
 
+error_reporting(0);
+
 $client = new Client([
     'public_key' => getenv('CLIENT_PUBLIC_KEY'),
     'uri' => null,
