@@ -6,8 +6,6 @@ use Discord\Interaction;
 use Discord\InteractionResponseType;
 use Discord\InteractionType;
 
-error_reporting(0);
-
 $CLIENT_PUBLIC_KEY = getenv('CLIENT_PUBLIC_KEY');
 
 $signature = $_SERVER['HTTP_X_SIGNATURE_ED25519'];
@@ -15,9 +13,20 @@ $timestamp = $_SERVER['HTTP_X_SIGNATURE_TIMESTAMP'];
 $postData = file_get_contents('php://input');
 
 if (Interaction::verifyKey($postData, $signature, $timestamp, $CLIENT_PUBLIC_KEY)) {
-    echo json_encode([
-        'type' => InteractionResponseType::PONG
-    ]);
+    $request = json_decode($postData);
+    if ($request->type == InteractionType::PING) {
+        echo json_encode([
+            'type' => InteractionResponseType::PONG
+        ]);
+    } elseif ($request->type == InteractionType::APPLICATION_COMMAND) {
+        header('Content-type: application/json');
+        echo json_encode([
+            'type' => InteractionResponseType::CHANNEL_MESSAGE_WITH_SOURCE,
+            'data' => [
+                'content' => 'Congratulations!'
+            ]
+        ]);
+    }
 } else {
     http_response_code(401);
     echo "Not verified";
