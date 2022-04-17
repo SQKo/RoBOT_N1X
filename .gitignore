@@ -2,5 +2,3 @@ vendor
 test.php
 .vscode
 .php_cs.cache
-composer.lock
-
