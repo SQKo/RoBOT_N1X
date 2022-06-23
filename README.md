@@ -1,5 +1,5 @@
 # RoBOT_N1X
-Discord Interactions Bot Demo made with DiscordPHP, via heroku apache2
+Discord Interactions Bot Demo made with DiscordPHP-Slash, via heroku apache2
 
 ## Setup
 1. Clone/download the repository
